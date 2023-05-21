@@ -1,2 +1,7 @@
 # Coffee-Website-with-Redis
-using redis as database, vitejs as frontend and python-flask as backend
+Using:
+- Redis as database
+- ViteJS as frontend
+- Python Flask as backend
+
+![Redis-Coffee.png](./Redis-Coffee.png)
