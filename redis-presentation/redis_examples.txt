@@ -1,0 +1,21 @@
+-- elinditjuk a redis-cli-t terminalbol
+
+-- strings
+set message “Hello Redis!”
+get message 
+
+-- string with numeric value 
+set counter 0
+incr counter 
+incrby counter 10
+
+-- hash
+hmset user name “John” age 30 email “john@example.com”
+hget user age 
+
+-- list
+lpush todos “Buy groceries” “Finish project” “Call mom” 
+lindex 0
+
+-- running the addNewCoffeeToDB.py we can add a new coffee to the database which would also appear on the website; when calling the add_coffee function we add the name, the description, the url of the image and the price of the new coffee and then run the program
+./addNewCoffeeToDB.py
